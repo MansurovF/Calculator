@@ -1,0 +1,83 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(167, 207, 194);
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+h1:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+
+.elemetns {
+  text-align: center;
+}
+input {
+  border: 2px solid rgb(58, 160, 151);
+  /* width: 30%; */
+  height: 30px;
+  display: inline-block;
+  margin: 2px 0;
+  border-radius: 5%;
+}
+#Basic {
+  text-align: center;
+  margin-top: 10rem;
+  width: 30%;
+  margin: 14rem 0 0 33rem;
+  border: 3px solid rgb(46, 114, 92);
+  padding: 31px;
+  border-radius: 1%;
+  background-color: rgb(16, 62, 58);
+}
+.butons {
+  margin: 10px 0;
+}
+#button {
+  border: 2px solid rgb(96, 124, 115);
+  border-radius: 10%;
+  cursor: pointer;
+  p {
+    margin: 4px;
+    color: rgb(114, 72, 19);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+  }
+}
+#button:hover {
+  background-color: rgb(35, 168, 106);
+  transition: 0.3s;
+  p {
+    color: white;
+    transition: 0.3s;
+  }
+}
+#button2 {
+  border: 2px solid rgb(96, 124, 115);
+  border-radius: 10%;
+  cursor: pointer;
+  p {
+    margin: 4px;
+    color: rgb(114, 72, 19);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+  }
+}
+#button2:hover {
+  background-color: rgb(35, 168, 106);
+  transition: 0.3s;
+  p {
+    color: white;
+    transition: 0.3s;
+  }
+}
+.results {
+  color: rgb(167, 207, 194);
+  font-size: 20px;
+  margin-top: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
